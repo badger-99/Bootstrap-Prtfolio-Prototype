@@ -72,19 +72,39 @@ VS-Code
 
 Clone this repository to your desired folder:
 
-https://github.com/badger-99/Bootstrap-Prtfolio-Prototype.git
+```sh
+  cd my-folder
+  git clone git@github.com:DevaWinner/Hello-Microverse.git
+```
+## Install
 
-### Install
+please first install the node package files
 
-This project doesn't need to be installed.
+```sh
+npm install
+```
 
 ### Usage
 
-A possible future tamplate.
+In order to use this project you either create branch to add more feature. But in order to run the project use below commands.
+
+- npm run build (It will create a production ready file)
+- npm start (It will run the server on your machine)
 
 ### Run tests
 
-There are no tests to run.
+I have added the linters or tests in order to avoid anykind of typos and ensure the good practices in this project. So while using this repository if you need to check your work no matters have worked on html, css and js you can use below commands:
+
+- In order to run the linter test on index.html or any html file. Use below command
+
+```sh
+npx hint .
+```
+- In order to run the linter test on css file. Use below command
+
+```sh
+npx stylelint "**/*.{css, scss}"
+```
 
 ### Deployment
 
@@ -98,11 +118,11 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 - GitHub: [@badger-99](https://github.com/badger-99)
 
-👤 **Author2**
+👤 **Aniekan Winner**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/DevaWinner)
+- Twitter: [@twitterhandle](https://twitter.com/WinnerDevq)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/winnera/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
